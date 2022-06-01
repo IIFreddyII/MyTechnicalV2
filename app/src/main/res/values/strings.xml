@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">MyTechnicalV2</string>
+    <string name="Login">Login</string>
+    <string name="Email">Email</string>
+    <string name="password">Password</string>
+    <string name="Forgot">Forgot</string>
+
+    <string name="txt_Signup_register"></string>
+
+    <string name="title_activity_menu">MyTechnical</string>
+    <string name="nav_header_desc">Description</string>
+    <string name="nav_header_title">Title</string>
+    <string name="nav_header_subtitle">Subtitle</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="action_settings">Setting</string>
+
+    <string name="title">MyTechnical</string>
+    <string name="signup">Register</string>
+    <string name="Welcome">Welcome</string>
+    <string name="Signup">Sign Up</string>
+    <string name="Name">Name</string>
+    <string name="Phone">Phone</string>
+    <string name="ForgoPassword">Forgot Password</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="newpassword">New Password</string>
+
+    <string name="congratulations">CONGRATULATIONS</string>
+    <string name="congartulationsv2">YOU AREA SUCCESSFULLY</string>
+    <string name="congratulationsv3">CHANGE YOUR PASSWORD</string>
+
+
+</resources>
