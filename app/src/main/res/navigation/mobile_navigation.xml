@@ -8,18 +8,49 @@
     <fragment
         android:id="@+id/nav_home"
         android:name="ita.com.mytechnicalv2.ui.home.HomeFragment"
-        android:label="@string/menu_home"
+        android:label="@string/title"
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="ita.com.mytechnicalv2.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/supportpcFragment"
+        android:name="ita.com.mytechnicalv2.SupportpcFragment"
+        android:label="@string/menu_supportPC"
+        tools:layout="@layout/fragment_supportpc" />
+
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="ita.com.mytechnicalv2.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/supportLapFragment"
+        android:name="ita.com.mytechnicalv2.SupportLapFragment"
+        android:label="@string/menu_supporLaptop"
+        tools:layout="@layout/fragment_support_lap" />
+
+    <fragment
+        android:id="@+id/instalationNetFragment"
+        android:name="ita.com.mytechnicalv2.InstalationNetFragment"
+        android:label="@string/menu_instalationNetwork"
+        tools:layout="@layout/fragment_instalation_net" />
+
+    <fragment
+        android:id="@+id/instalationSoftFragment"
+        android:name="ita.com.mytechnicalv2.InstalationSoftFragment"
+        android:label="@string/menu_instalationSoft"
+        tools:layout="@layout/fragment_instalation_soft" />
+
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="ita.com.mytechnicalv2.AboutFragment"
+        android:label=""
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/contacFragment"
+        android:name="ita.com.mytechnicalv2.ContacFragment"
+        android:label=""
+        tools:layout="@layout/fragment_contac" />
+    <fragment
+        android:id="@+id/termAndConditionsFragment"
+        android:name="ita.com.mytechnicalv2.TermAndConditionsFragment"
+        android:label=""
+        tools:layout="@layout/fragment_term_and_conditions" />
+
 </navigation>
