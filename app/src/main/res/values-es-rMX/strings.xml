@@ -97,5 +97,12 @@
     <string name="action_settings">Configuracion</string>
     <string name="action_languaje">Cambiar Idioma</string>
     <string name="action_exit">Salir</string>
+    <string name="infopc">El acelerado ritmo de vida actual nos exige contar con equipos de cómputo funcionando a la perfección y 24/7, por ello en MyTechnical diseñamos una solución en mantenimiento preventivo y correctivo rápido, eficiente y a la medida de sus necesidades.</string>
+    <string name="infopc2">Compruebe cómo sus PC’s y Laptops (diferentes marcas y modelos) se renuevan y lo ayudan a agilizar sus tareas diarias con nuestro servicio de soporte técnico.</string>
+    <string name="infopc3">Sin grandes propuestas ni costos elevados, nosotros le hacemos “un traje a la medida de sus necesidades reales”.</string>
+    <string name="infopc4">1.-Inspección física del equipo.\n2.-Diagnóstico de componentes de hardware y software.\n3.-Cotización.\n4.-Asistencia personalizada</string>
+    <string name="infopc5">Descubra un mundo de posibilidades con nuestras soluciones en mantenimiento preventivo y correctivo de PC’s y Laptops.</string>
+    <string name="pc">Información</string>
+    <string name="session">Cerrar Sessión</string>
 
 </resources>

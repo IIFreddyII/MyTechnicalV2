@@ -49,28 +49,28 @@ public class HomeFragment extends Fragment {
         button_pc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Navigation.findNavController(view).navigate(R.id.supportpcFragment);
+                Navigation.findNavController(view).navigate(R.id.suportPcInfoFragment);
             }
         });
 
         button_lap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Navigation.findNavController(view).navigate(R.id.supportLapFragment);
+                Navigation.findNavController(view).navigate(R.id.supporLapInfoFragment);
             }
         });
 
         button_soft.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Navigation.findNavController(view).navigate(R.id.instalationSoftFragment);
+                Navigation.findNavController(view).navigate(R.id.instalationSoftInfoFragment);
             }
         });
 
         button_net.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Navigation.findNavController(view).navigate(R.id.instalationNetFragment);
+                Navigation.findNavController(view).navigate(R.id.instalationNetInfoFragment);
             }
         });
         return root;

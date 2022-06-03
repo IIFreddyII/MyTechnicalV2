@@ -14,10 +14,6 @@
             android:id="@+id/editInformationFragment"
             android:icon="@drawable/ic_baseline_edit_24"
             android:title="@string/menu_editInfo" />
-        <item
-            android:id="@+id/idlog"
-            android:icon="@drawable/ic_baseline_logout_24"
-            android:title="@string/menu_LogOut" />
         <item android:title=""
             android:enabled="false"/>
     </group>

@@ -91,11 +91,6 @@
             android:id="@+id/action_congratulationPasswordChangeFragment_to_editInformationFragment"
             app:destination="@id/editInformationFragment" />
     </fragment>
-    <activity
-        android:id="@+id/idlog"
-        android:name="ita.com.mytechnicalv2.WelcomeActivity"
-        android:label=""
-        tools:layout="@layout/activity_welcome" />
     <fragment
         android:id="@+id/paymentFragment"
         android:name="ita.com.mytechnicalv2.PaymentFragment"
@@ -124,5 +119,25 @@
         android:name="ita.com.mytechnicalv2.RatingFragment"
         android:label="@string/Rating"
         tools:layout="@layout/fragment_rating" />
+    <fragment
+        android:id="@+id/suportPcInfoFragment"
+        android:name="ita.com.mytechnicalv2.SuportPcInfoFragment"
+        android:label="@string/pc"
+        tools:layout="@layout/fragment_suport_pc_info" />
+    <fragment
+        android:id="@+id/supporLapInfoFragment"
+        android:name="ita.com.mytechnicalv2.SupporLapInfoFragment"
+        android:label="@string/pc"
+        tools:layout="@layout/fragment_suppor_lap_info" />
+    <fragment
+        android:id="@+id/instalationNetInfoFragment"
+        android:name="ita.com.mytechnicalv2.InstalationNetInfoFragment"
+        android:label="@string/pc"
+        tools:layout="@layout/fragment_instalation_net_info" />
+    <fragment
+        android:id="@+id/instalationSoftInfoFragment"
+        android:name="ita.com.mytechnicalv2.InstalationSoftInfoFragment"
+        android:label="@string/pc"
+        tools:layout="@layout/fragment_instalation_soft_info" />
 
 </navigation>

@@ -110,5 +110,11 @@
     <string name="menu_title" translatable="false">MyTechnical</string>
     <string name="rateService">Rate Service</string>
     <string name="Rating">Rating</string>
-
+    <string name="infopc">Today\'s fast pace of life requires us to have computer equipment working perfectly and 24/7, so at MyTechnical we design a fast, efficient preventive and corrective maintenance solution tailored to your needs.</string>
+    <string name="infopc2">See how your PCs and Laptops (different brands and models) are renewed and help you speed up your daily tasks with our technical support service.</string>
+    <string name="infopc3">Without great proposals or high costs, we make you \"a suit tailored to your real needs\".</string>
+    <string name="infopc4">1.-Physical inspection of the equipment.\n2.-Diagnosis of hardware and software components.\n3.-Quotation.\n4.-Personalized assistance.</string>
+    <string name="infopc5">Discover a world of possibilities with our preventive and corrective maintenance solutions for PCs and Laptops.</string>
+    <string name="pc">Information</string>
+    <string name="session">Close Session</string>
 </resources>
