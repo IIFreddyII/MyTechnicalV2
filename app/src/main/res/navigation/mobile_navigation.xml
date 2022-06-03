@@ -52,5 +52,37 @@
         android:name="ita.com.mytechnicalv2.TermAndConditionsFragment"
         android:label=""
         tools:layout="@layout/fragment_term_and_conditions" />
+    <fragment
+        android:id="@+id/editInformationFragment"
+        android:name="ita.com.mytechnicalv2.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/action_editInformationFragment_to_changePasswordFragment"
+            app:destination="@id/changePasswordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/changePasswordFragment"
+        android:name="ita.com.mytechnicalv2.ChangePasswordFragment"
+        android:label=""
+        tools:layout="@layout/fragment_change_password" >
+        <action
+            android:id="@+id/action_changePasswordFragment_to_passwordChangeFragment"
+            app:destination="@id/passwordChangeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/passwordChangeFragment"
+        android:name="ita.com.mytechnicalv2.PasswordChangeFragment"
+        android:label=""
+        tools:layout="@layout/fragment_password_change" />
+    <fragment
+        android:id="@+id/congratulationPasswordChangeFragment"
+        android:name="ita.com.mytechnicalv2.CongratulationPasswordChangeFragment"
+        android:label="CongratulationPasswordChangeFragment"
+        tools:layout="@layout/fragment_congratulation_password_change">
+        <action
+            android:id="@+id/action_congratulationPasswordChangeFragment_to_editInformationFragment"
+            app:destination="@id/editInformationFragment" />
+    </fragment>
 
 </navigation>

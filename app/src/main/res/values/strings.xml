@@ -87,6 +87,17 @@
     <string name="emilianoemail">guez.emilio92@gmail.com</string>
     <string name="termandconditions">Term and Conditions</string>
     <string name="term">These terms and conditions of use are made available to the user by MYTECHNICAL MOBILITY INFORMATION TECHNOLOGY PTE. LTD.(hereinafter referred to asMyTechnical or the Company), a company duly incorporated under the laws of Mexico with address at C Salvador Novo 347, Pensadores Mexicanos, Aguascalientes Mexico.</string>
-
+    <string name="action_languaje">Spanish</string>
+    <string name="action_exit">Exit</string>
+    <string name="changepass">Change Password</string>
+    <string name="city">City</string>
+    <string name="street">Street</string>
+    <string name="Suburb">Suburb</string>
+    <string name="cp">CP</string>
+    <string name="Save">Save</string>
+    <string name="name">Name</string>
+    <string name="lastName">LastName</string>
+    <string name="phoneNumber">Phone number</string>
+    <string name="profile">Profile</string>
 
 </resources>
