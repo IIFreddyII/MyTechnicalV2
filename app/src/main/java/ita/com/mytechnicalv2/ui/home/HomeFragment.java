@@ -37,6 +37,8 @@ public class HomeFragment extends Fragment {
         button_net = root.findViewById(R.id.btn_net);
         button_soft = root.findViewById(R.id.btn_soft);
 
+
+
         button_About.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -71,7 +73,6 @@ public class HomeFragment extends Fragment {
                 Navigation.findNavController(view).navigate(R.id.instalationNetFragment);
             }
         });
-
         return root;
     }
 
