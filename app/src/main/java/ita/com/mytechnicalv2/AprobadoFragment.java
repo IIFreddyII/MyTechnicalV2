@@ -29,7 +29,7 @@ public class AprobadoFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 showDialog();
-                //Navigation.findNavController(view).navigate(R.id.homeServiceFragment);
+                Navigation.findNavController(view).navigate(R.id.homeServiceFragment);
             }
         });
 
@@ -39,8 +39,8 @@ public class AprobadoFragment extends Fragment {
     private void showDialog(){
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
         LayoutInflater inflater =  getActivity().getLayoutInflater();
-        //View view = inflater.inflate(R.layout.fragment_dialog, null);
-        //builder.setView(view);
+        View view = inflater.inflate(R.layout.fragment_dialog, null);
+        builder.setView(view);
         AlertDialog dialog = builder.create();
         dialog.show();
     }

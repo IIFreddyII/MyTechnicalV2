@@ -15,26 +15,33 @@
         android:id="@+id/supportpcFragment"
         android:name="ita.com.mytechnicalv2.SupportpcFragment"
         android:label="@string/menu_supportPC"
-        tools:layout="@layout/fragment_supportpc" />
+        tools:layout="@layout/fragment_supportpc" >
+        <action
+            android:id="@+id/action_supportpcFragment_to_paymentFragment"
+            app:destination="@id/paymentFragment" />
+    </fragment>
 
 
     <fragment
         android:id="@+id/supportLapFragment"
         android:name="ita.com.mytechnicalv2.SupportLapFragment"
         android:label="@string/menu_supporLaptop"
-        tools:layout="@layout/fragment_support_lap" />
+        tools:layout="@layout/fragment_support_lap" >
+    </fragment>
 
     <fragment
         android:id="@+id/instalationNetFragment"
         android:name="ita.com.mytechnicalv2.InstalationNetFragment"
         android:label="@string/menu_instalationNetwork"
-        tools:layout="@layout/fragment_instalation_net" />
+        tools:layout="@layout/fragment_instalation_net" >
+    </fragment>
 
     <fragment
         android:id="@+id/instalationSoftFragment"
         android:name="ita.com.mytechnicalv2.InstalationSoftFragment"
         android:label="@string/menu_instalationSoft"
-        tools:layout="@layout/fragment_instalation_soft" />
+        tools:layout="@layout/fragment_instalation_soft" >
+    </fragment>
 
     <fragment
         android:id="@+id/aboutFragment"
@@ -78,11 +85,44 @@
     <fragment
         android:id="@+id/congratulationPasswordChangeFragment"
         android:name="ita.com.mytechnicalv2.CongratulationPasswordChangeFragment"
-        android:label="CongratulationPasswordChangeFragment"
+        android:label=""
         tools:layout="@layout/fragment_congratulation_password_change">
         <action
             android:id="@+id/action_congratulationPasswordChangeFragment_to_editInformationFragment"
             app:destination="@id/editInformationFragment" />
     </fragment>
+    <activity
+        android:id="@+id/idlog"
+        android:name="ita.com.mytechnicalv2.WelcomeActivity"
+        android:label=""
+        tools:layout="@layout/activity_welcome" />
+    <fragment
+        android:id="@+id/paymentFragment"
+        android:name="ita.com.mytechnicalv2.PaymentFragment"
+        android:label="@string/payment"
+        tools:layout="@layout/fragment_payment" >
+        <action
+            android:id="@+id/action_paymentFragment_to_aprobadoFragment"
+            app:destination="@id/aprobadoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aprobadoFragment"
+        android:name="ita.com.mytechnicalv2.AprobadoFragment"
+        android:label=""
+        tools:layout="@layout/fragment_aprobado" />
+    <fragment
+        android:id="@+id/homeServiceFragment"
+        android:name="ita.com.mytechnicalv2.HomeServiceFragment"
+        android:label="MyTechnical"
+        tools:layout="@layout/fragment_home_service" >
+        <action
+            android:id="@+id/action_homeServiceFragment_to_ratingFragment"
+            app:destination="@id/ratingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ratingFragment"
+        android:name="ita.com.mytechnicalv2.RatingFragment"
+        android:label="@string/Rating"
+        tools:layout="@layout/fragment_rating" />
 
 </navigation>

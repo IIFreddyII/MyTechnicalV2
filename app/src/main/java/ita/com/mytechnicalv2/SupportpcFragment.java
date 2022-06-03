@@ -54,7 +54,7 @@ public class SupportpcFragment extends Fragment {
         img_revisionpc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Navigation.findNavController(view).navigate(R.id.paymentFragment);
+                Navigation.findNavController(view).navigate(R.id.paymentFragment);
             }
         });
 

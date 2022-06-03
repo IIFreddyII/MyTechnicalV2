@@ -36,7 +36,7 @@ public class PaymentFragment extends Fragment {
         button_Aprobado.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Navigation.findNavController(view).navigate(R.id.aprobadoFragment);
+                Navigation.findNavController(view).navigate(R.id.aprobadoFragment);
                 Toast.makeText(getActivity(),"Aprobado!",Toast.LENGTH_SHORT).show();
             }
         });

@@ -98,6 +98,17 @@
     <string name="name">Name</string>
     <string name="lastName">LastName</string>
     <string name="phoneNumber">Phone number</string>
+    <string name="home">Home</string>
     <string name="profile">Profile</string>
+    <string name="dialog">Waiting for answers from the technician</string>
+    <string name="btnService">Show Order</string>
+    <string name="messageservice">Technician on the way</string>
+    <string name="tecnicalName">Technical Name</string>
+    <string name="AddresTecnical">Addres:</string>
+    <string name="tecnicalphone">Phone:</string>
+    <string name="btnMap">Show Map</string>
+    <string name="menu_title" translatable="false">MyTechnical</string>
+    <string name="rateService">Rate Service</string>
+    <string name="Rating">Rating</string>
 
 </resources>
