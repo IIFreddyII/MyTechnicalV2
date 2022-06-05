@@ -16,7 +16,7 @@ import androidx.navigation.Navigation;
 
 public class HomeServiceFragment extends Fragment {
 
-    String url = "https://www.google.com.mx/maps/place/Instituto+Tecnol%C3%B3gico+de+Aguascalientes/@21.8782247,-102.2651059,17z/data=!3m1!4b1!4m5!3m4!1s0x8429ee069d6cf307:0xd93b5294c07171a7!8m2!3d21.8782197!4d-102.2629172";
+    String url = "https://www.google.com.mx/maps/place/Salvador+Novo+347,+Pensadores+Mexicanos,+20179+Aguascalientes,+Ags./@21.9154192,-102.2643157,17z/data=!3m1!4b1!4m5!3m4!1s0x8429ee2c40f62731:0x5ab01cf16c17e360!8m2!3d21.9154253!4d-102.2621263";
     String urlchat = "https://api.whatsapp.com/send?phone=52";
     private Button btn_Maps;
     private Button btn_chat;
@@ -52,7 +52,7 @@ public class HomeServiceFragment extends Fragment {
        btn_chat.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View view) {
-               text = root.findViewById(R.id.etxt_PhoneTechnical);
+               text = root.findViewById(R.id.tex_numbertecnico);
                String number = text.getText().toString();
 
                Uri uri = Uri.parse(urlchat+number);

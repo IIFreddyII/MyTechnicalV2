@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "13613318871",
+    "project_id": "pruebamytechnical",
+    "storage_bucket": "pruebamytechnical.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:13613318871:android:958a088818217d14442692",
+        "android_client_info": {
+          "package_name": "ita.com.mytechnicalv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "13613318871-medtfkrvs5paspu3396jrodtiu2483v0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEwKWTkLLQhR0yJ2Guiq1KwDKSlKhntMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "13613318871-medtfkrvs5paspu3396jrodtiu2483v0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

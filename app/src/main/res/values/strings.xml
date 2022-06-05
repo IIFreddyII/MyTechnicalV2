@@ -55,7 +55,6 @@
     <string name="Removeantivirus">Virus Removal and Antivirus Installation</string>
     <string name="repairhard">Hardware Level Repair</string>
     <string name="price">USD $5.11</string>
-    <string name="servicename">Service Name</string>
     <string name="clientinfo">Client information</string>
     <string name="serviseinfo">Service information</string>
     <string name="payment">Payment method</string>
@@ -103,7 +102,7 @@
     <string name="dialog">Waiting for answers from the technician</string>
     <string name="btnService">Show Order</string>
     <string name="messageservice">Technician on the way</string>
-    <string name="tecnicalName">Technical Name</string>
+    <string name="tecnicalName">Freddy Luna</string>
     <string name="AddresTecnical">Addres:</string>
     <string name="tecnicalphone">Phone:</string>
     <string name="btnMap">Show Map</string>
@@ -117,4 +116,5 @@
     <string name="infopc5">Discover a world of possibilities with our preventive and corrective maintenance solutions for PCs and Laptops.</string>
     <string name="pc">Information</string>
     <string name="session">Close Session</string>
+    <string name="servicename">Service Name</string>
 </resources>

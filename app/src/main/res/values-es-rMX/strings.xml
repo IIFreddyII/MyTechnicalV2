@@ -76,7 +76,7 @@
     <string name="Diagnosis">Diagnostico</string>
     <string name="CleaningComputer">Limpieza de equipos de computo</string>
     <string name="Operatingsystem">Actualización del sistema operativo</string>
-    <string name="backup">" Copia de seguridad de la información"</string>
+    <string name="backup">Copia de seguridad de la informacion</string>
     <string name="RAMexpansion">expansión RAM</string>
     <string name="Recover">Recuperacion de informacion</string>
     <string name="user">Alfredolunacastro07@gmail.com</string>
@@ -84,7 +84,7 @@
     <string name="dialog">Esperando Respuesta del Tecnico</string>
     <string name="btnService">Ver Orden</string>
     <string name="messageservice">Tecnico en Camino</string>
-    <string name="tecnicalName">Nombre del Tecnico</string>
+    <string name="tecnicalName">Freddy Luna</string>
     <string name="AddresTecnical">Direccion:</string>
     <string name="tecnicalphone">Telefono:</string>
     <string name="btnMap">Ver Ubicacion</string>
