@@ -58,18 +58,13 @@ public class ProfileFragment extends Fragment {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 if(snapshot.exists()){
-
                     String nombres = snapshot.child("Nombre").getValue().toString();
                     String telefonos = snapshot.child("Telefono").getValue().toString();
                     String correos = snapshot.child("Correo").getValue().toString();
-
-                    Toast.makeText(getActivity(),nombres+correos,Toast.LENGTH_LONG).show();
                     nombre.setText(nombres);
                     telefono.setText(telefonos);
                     correo.setText(correos);
 
-                }else {
-                    Toast.makeText(getActivity(),"Vacio",Toast.LENGTH_SHORT).show();
                 }
             }
 

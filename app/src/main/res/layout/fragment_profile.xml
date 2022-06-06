@@ -33,18 +33,18 @@
 
             <View
                 android:id="@+id/view3"
-                android:layout_width="195dp"
+                android:layout_width="234dp"
                 android:layout_height="42dp"
                 android:layout_marginTop="12dp"
                 android:background="#E5E5E5"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.416"
+                app:layout_constraintHorizontal_bias="0.459"
                 app:layout_constraintStart_toEndOf="@+id/txt_name_profile"
                 app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
             <View
                 android:id="@+id/view18"
-                android:layout_width="195dp"
+                android:layout_width="234dp"
                 android:layout_height="42dp"
                 android:layout_marginTop="8dp"
                 android:background="#E5E5E5"
@@ -57,7 +57,7 @@
 
             <View
                 android:id="@+id/view19"
-                android:layout_width="195dp"
+                android:layout_width="234dp"
                 android:layout_height="42dp"
                 android:background="#E5E5E5"
                 app:layout_constraintBottom_toBottomOf="@+id/editTextTextEmailAddress"
@@ -119,29 +119,9 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/txt_phone_profile" />
 
-            <TextView
-                android:id="@+id/txt_changePassword_profile"
-                android:layout_width="239dp"
-                android:layout_height="22dp"
-                android:layout_marginStart="32dp"
-                android:layout_marginTop="24dp"
-                android:layout_marginEnd="32dp"
-                android:drawableEnd="@drawable/ic_baseline_navigate_next_24"
-                android:drawableTint="#020202"
-                android:text="@string/changepass"
-                android:textAlignment="textStart"
-                android:textColor="#000000"
-                android:textSize="16sp"
-                android:textStyle="bold"
-                android:typeface="normal"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/txt_email_profile" />
-
             <EditText
                 android:id="@+id/editTextTextPersonName"
-                android:layout_width="195dp"
+                android:layout_width="234dp"
                 android:layout_height="42dp"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="12dp"
@@ -149,16 +129,16 @@
                 android:ems="10"
                 android:hint="@string/Name"
                 android:inputType="textPersonName"
-                android:textSize="16sp"
+                android:textSize="14sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.322"
+                app:layout_constraintHorizontal_bias="0.347"
                 app:layout_constraintStart_toEndOf="@+id/txt_name_profile"
                 app:layout_constraintTop_toBottomOf="@+id/imageView"
                 tools:ignore="TouchTargetSizeCheck" />
 
             <EditText
                 android:id="@+id/editTextNumber"
-                android:layout_width="195dp"
+                android:layout_width="234dp"
                 android:layout_height="41dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
@@ -167,52 +147,29 @@
                 android:hint="@string/phoneNumber"
                 android:inputType="number"
                 android:minHeight="48dp"
-                android:textSize="16sp"
+                android:textSize="14sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.316"
+                app:layout_constraintHorizontal_bias="0.285"
                 app:layout_constraintStart_toEndOf="@+id/txt_phone_profile"
                 app:layout_constraintTop_toBottomOf="@+id/view3"
                 tools:ignore="TouchTargetSizeCheck" />
 
             <EditText
                 android:id="@+id/editTextTextEmailAddress"
-                android:layout_width="194dp"
+                android:layout_width="234dp"
                 android:layout_height="40dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="32dp"
                 android:ems="10"
                 android:hint="@string/Email"
                 android:inputType="textEmailAddress"
-                android:textSize="16sp"
+                android:textSize="14sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.441"
+                app:layout_constraintHorizontal_bias="0.594"
                 app:layout_constraintStart_toEndOf="@+id/txt_email_profile"
                 app:layout_constraintTop_toBottomOf="@+id/editTextNumber"
                 tools:ignore="TouchTargetSizeCheck" />
 
-            <Button
-                android:id="@+id/btn_save_Profile"
-                android:layout_width="150dp"
-                android:layout_height="55dp"
-                android:layout_marginTop="32dp"
-                android:layout_marginEnd="32dp"
-                android:background="#263445"
-                android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"
-                android:fontFamily="sans-serif-medium"
-                android:text="@string/Save"
-                android:textAlignment="center"
-                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="#FFFFFF"
-                android:textSize="20sp"
-                android:textStyle="normal"
-                app:backgroundTint="@null"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.816"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/txt_changePassword_profile"
-                app:layout_constraintVertical_bias="0.0"
-                tools:ignore="TouchTargetSizeCheck" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 </FrameLayout>

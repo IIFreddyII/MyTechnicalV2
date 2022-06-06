@@ -22,7 +22,7 @@
     <string name="menu_about">Acerca de Nosotros</string>
     <string name="menu_contact">Contacto</string>
     <string name="menu_term">Terminos y Condiciones</string>
-    <string name="menu_editInfo">Editar Informacion</string>
+    <string name="menu_editInfo">Informacion del perfil</string>
     <string name="menu_LogOut">Cerrar Session</string>
     <string name="Signup">Registrarse</string>
     <string name="Name">Nombre</string>
@@ -47,17 +47,17 @@
     <string name="price">MXN $99.99</string>
     <string name="instalationsoft">Instalacion de Antivirus</string>
     <string name="instalationsoft2">Instalacion de Sistema OPerativo</string>
-    <string name="instalationsoft3">" Instalación del paquete de Office"</string>
-    <string name="instalationsoft4">" Instalación de Aplicaciones"</string>
+    <string name="instalationsoft3">Instalación del paquete de Office</string>
+    <string name="instalationsoft4">Instalación de Aplicaciones</string>
     <string name="servicename">"Nombre del Servicio "</string>
     <string name="clientinfo">Información del cliente</string>
     <string name="serviseinfo">Informacion del Servicio</string>
     <string name="payment">Metodo de Pago</string>
     <string name="cash">Efectivo</string>
     <string name="Paypal">Paypal</string>
-    <string name="name">Nombre</string>
+    <string name="name">Nombre:</string>
     <string name="lastName">Apellidos</string>
-    <string name="phoneNumber">Numero de Telefono</string>
+    <string name="phoneNumber">Numero de Telefono:</string>
     <string name="changepass">Cambio de Contraseña</string>
     <string name="city">Ciudad</string>
     <string name="street">Calle</string>
@@ -88,7 +88,7 @@
     <string name="AddresTecnical">Direccion:</string>
     <string name="tecnicalphone">Telefono:</string>
     <string name="btnMap">Ver Ubicacion</string>
-    <string name="profile">Perfil</string>
+    <string name="profile">Informacion del Perfil</string>
     <string name="dir">Estudiante de la carrera de Ingeniería en Tecnologías de la información y comunicaciones en el Instituto Tecnológico de Aguascalientes, México</string>
     <string name="btnqualify">Calificar</string>
     <string name="Rating">Calificacion del Servicio</string>
@@ -107,5 +107,6 @@
     <string name="english">Lenguaje Ingles</string>
     <string name="invalid_mail">Ingrese email valido</string>
     <string name="invalid_password">Ingrese contraseña valida</string>
+    <string name="submit">Calificar</string>
 
 </resources>

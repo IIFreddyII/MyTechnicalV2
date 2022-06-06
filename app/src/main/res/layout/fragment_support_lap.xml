@@ -170,7 +170,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView22" />
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/txt_nameService"
                 android:layout_width="120dp"
                 android:layout_height="45dp"
                 android:layout_marginEnd="60dp"
@@ -190,9 +190,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/price"
-                app:layout_constraintEnd_toEndOf="@+id/textView"
-                app:layout_constraintStart_toStartOf="@+id/textView"
-                app:layout_constraintTop_toBottomOf="@+id/textView" />
+                app:layout_constraintEnd_toEndOf="@+id/txt_nameService"
+                app:layout_constraintStart_toStartOf="@+id/txt_nameService"
+                app:layout_constraintTop_toBottomOf="@+id/txt_nameService" />
 
             <ImageView
                 android:id="@+id/imageView6"
@@ -242,7 +242,7 @@
                 android:gravity="center"
                 android:src="@drawable/deletevirus"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView" />
+                app:layout_constraintTop_toBottomOf="@+id/txt_nameService" />
 
             <TextView
                 android:id="@+id/textView6"

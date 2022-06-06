@@ -8,10 +8,19 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.Menu;
 import android.widget.Button;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatDelegate;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
@@ -47,7 +56,7 @@ public class MenuActivity extends AppCompatActivity {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.supportpcFragment, R.id.supportLapFragment, R.id.instalationNetFragment,R.id.instalationSoftFragment , R.id.aboutFragment, R.id.contacFragment, R.id.termAndConditionsFragment, R.id.editInformationFragment, R.id.homeServiceFragment)
+                R.id.nav_home, R.id.supportpcFragment, R.id.supportLapFragment, R.id.instalationNetFragment,R.id.instalationSoftFragment , R.id.aboutFragment, R.id.contacFragment, R.id.termAndConditionsFragment, R.id.homeServiceFragment)
                 .setOpenableLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_menu);

@@ -7,11 +7,21 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.Navigation;
+
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
+import java.security.PrivilegedAction;
 
 
 public class HomeServiceFragment extends Fragment {
@@ -22,6 +32,9 @@ public class HomeServiceFragment extends Fragment {
     private Button btn_chat;
     private Button btn_qualify;
     TextView text;
+
+    private DatabaseReference mDatabase;
+    private TextView direccion,numbertecnico,nombreTecnico,correotecnico;
 
 
     @Override
@@ -36,6 +49,36 @@ public class HomeServiceFragment extends Fragment {
         // Inflate the layout for this fragment
        View root = inflater.inflate(R.layout.fragment_home_service, container, false);
 
+       //obtener datos de la BD
+        mDatabase = FirebaseDatabase.getInstance().getReference();
+
+        nombreTecnico = (TextView) root.findViewById(R.id.txt_nombreTecnico);
+        direccion = (TextView) root.findViewById(R.id.tex_direccion);
+        numbertecnico = (TextView) root.findViewById(R.id.tex_numbertecnico);
+        correotecnico = (TextView) root.findViewById(R.id.txt_correoTecnico);
+
+        mDatabase.child("Tecnico").addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                if(snapshot.exists()){
+                    String nombres = snapshot.child("nombre").getValue().toString();
+                    String telefonos = snapshot.child("Telefono").getValue().toString();
+                    String direcciones = snapshot.child("Direccion").getValue().toString();
+                    String correos = snapshot.child("Correo").getValue().toString();
+
+                    nombreTecnico.setText(nombres);
+                    direccion.setText(direcciones );
+                    correotecnico.setText(correos);
+                    numbertecnico.setText(telefonos);
+                }
+            }
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });
+
+       //botones
        btn_Maps = root.findViewById(R.id.btn_map);
        btn_Maps.setOnClickListener(new View.OnClickListener() {
            @Override
