@@ -103,5 +103,9 @@
     <string name="infopc5">Descubra un mundo de posibilidades con nuestras soluciones en mantenimiento preventivo y correctivo de PC’s y Laptops.</string>
     <string name="pc">Información</string>
     <string name="session">Cerrar Sessión</string>
+    <string name="spanish">Lenguaje Español</string>
+    <string name="english">Lenguaje Ingles</string>
+    <string name="invalid_mail">Ingrese email valido</string>
+    <string name="invalid_password">Ingrese contraseña valida</string>
 
 </resources>

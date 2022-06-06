@@ -1,33 +1,34 @@
 {
   "project_info": {
-    "project_number": "13613318871",
-    "project_id": "pruebamytechnical",
-    "storage_bucket": "pruebamytechnical.appspot.com"
+    "project_number": "918931094670",
+    "firebase_url": "https://mytechical-default-rtdb.firebaseio.com",
+    "project_id": "mytechical",
+    "storage_bucket": "mytechical.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:13613318871:android:958a088818217d14442692",
+        "mobilesdk_app_id": "1:918931094670:android:3d6152c262ad4f8154dddf",
         "android_client_info": {
           "package_name": "ita.com.mytechnicalv2"
         }
       },
       "oauth_client": [
         {
-          "client_id": "13613318871-medtfkrvs5paspu3396jrodtiu2483v0.apps.googleusercontent.com",
+          "client_id": "918931094670-dujhp1eoc3ivbig0gm4ff8vmjg40tg3f.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDEwKWTkLLQhR0yJ2Guiq1KwDKSlKhntMI"
+          "current_key": "AIzaSyCRvU37DabwBXv2mOKGgGgfAWAgx2Ti2EQ"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "13613318871-medtfkrvs5paspu3396jrodtiu2483v0.apps.googleusercontent.com",
+              "client_id": "918931094670-dujhp1eoc3ivbig0gm4ff8vmjg40tg3f.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

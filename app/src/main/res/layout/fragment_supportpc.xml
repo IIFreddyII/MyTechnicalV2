@@ -29,14 +29,15 @@
                 app:srcCompat="@drawable/revision" />
 
             <TextView
-                android:id="@+id/txt_cleanLap"
+                android:id="@+id/txt_revision"
                 android:layout_width="121dp"
                 android:layout_height="44dp"
                 android:layout_marginStart="60dp"
                 android:foregroundGravity="center"
                 android:foregroundTint="#020202"
                 android:gravity="center"
-                android:text="@string/Physicalexamination"
+                android:text="name"
+                android:textColor="@color/servicios"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="@+id/img_revisionpc"
                 app:layout_constraintHorizontal_bias="1.0"
@@ -44,13 +45,13 @@
                 app:layout_constraintTop_toBottomOf="@+id/img_revisionpc" />
 
             <TextView
-                android:id="@+id/txt_price_cleanerLap"
+                android:id="@+id/txt_price_revision"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/price"
-                app:layout_constraintEnd_toEndOf="@+id/txt_cleanLap"
-                app:layout_constraintStart_toStartOf="@+id/txt_cleanLap"
-                app:layout_constraintTop_toBottomOf="@+id/txt_cleanLap" />
+                android:text="price"
+                app:layout_constraintEnd_toEndOf="@+id/txt_revision"
+                app:layout_constraintStart_toStartOf="@+id/txt_revision"
+                app:layout_constraintTop_toBottomOf="@+id/txt_revision" />
 
             <ImageView
                 android:id="@+id/imageView25"
@@ -65,13 +66,14 @@
                 app:srcCompat="@drawable/diagnostico" />
 
             <TextView
-                android:id="@+id/textView21"
+                android:id="@+id/txt_diagnostico"
                 android:layout_width="121dp"
                 android:layout_height="46dp"
                 android:foregroundGravity="center"
                 android:foregroundTint="#020202"
                 android:gravity="center"
                 android:text="@string/Diagnosis"
+                android:textColor="@color/servicios"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="@+id/imageView25"
                 app:layout_constraintHorizontal_bias="0.0"
@@ -79,14 +81,14 @@
                 app:layout_constraintTop_toBottomOf="@+id/imageView25" />
 
             <TextView
-                android:id="@+id/txt_price_updateAntivirus"
+                android:id="@+id/txt_price_diagnostico"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/price"
-                app:layout_constraintEnd_toEndOf="@+id/textView21"
+                app:layout_constraintEnd_toEndOf="@+id/txt_diagnostico"
                 app:layout_constraintHorizontal_bias="0.465"
-                app:layout_constraintStart_toStartOf="@+id/textView21"
-                app:layout_constraintTop_toBottomOf="@+id/textView21" />
+                app:layout_constraintStart_toStartOf="@+id/txt_diagnostico"
+                app:layout_constraintTop_toBottomOf="@+id/txt_diagnostico" />
 
             <ImageView
                 android:id="@+id/imageView26"
@@ -95,31 +97,32 @@
                 android:layout_marginStart="60dp"
                 android:layout_marginTop="32dp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/txt_cleanLap"
+                app:layout_constraintTop_toBottomOf="@+id/txt_revision"
                 app:srcCompat="@drawable/limpieza" />
 
             <TextView
-                android:id="@+id/textView22"
+                android:id="@+id/txt_LimpiezaPC"
                 android:layout_width="121dp"
                 android:layout_height="56dp"
                 android:foregroundGravity="center"
                 android:foregroundTint="#020202"
                 android:gravity="center"
                 android:text="@string/CleaningComputer"
+                android:textColor="@color/servicios"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="@+id/imageView26"
-                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="@+id/imageView26"
                 app:layout_constraintTop_toBottomOf="@+id/imageView26" />
 
             <TextView
-                android:id="@+id/txt_price_cleanerLap3"
+                android:id="@+id/txt_price_limpiezapc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/price"
-                app:layout_constraintEnd_toEndOf="@+id/textView22"
-                app:layout_constraintStart_toStartOf="@+id/textView22"
-                app:layout_constraintTop_toBottomOf="@+id/textView22" />
+                app:layout_constraintEnd_toEndOf="@+id/txt_LimpiezaPC"
+                app:layout_constraintStart_toStartOf="@+id/txt_LimpiezaPC"
+                app:layout_constraintTop_toBottomOf="@+id/txt_LimpiezaPC" />
 
             <ImageView
                 android:id="@+id/imageView27"
@@ -130,11 +133,11 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.941"
                 app:layout_constraintStart_toEndOf="@+id/imageView26"
-                app:layout_constraintTop_toBottomOf="@+id/textView21"
+                app:layout_constraintTop_toBottomOf="@+id/txt_diagnostico"
                 app:srcCompat="@drawable/updatepc" />
 
             <TextView
-                android:id="@+id/textView23"
+                android:id="@+id/txt_ActualizaiconHard"
                 android:layout_width="120dp"
                 android:layout_height="55dp"
                 android:layout_marginEnd="60dp"
@@ -142,6 +145,7 @@
                 android:foregroundTint="#020202"
                 android:gravity="center"
                 android:text="@string/Hardwareupgrade"
+                android:textColor="@color/servicios"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="@+id/imageView27"
                 app:layout_constraintHorizontal_bias="0.0"
@@ -149,13 +153,13 @@
                 app:layout_constraintTop_toBottomOf="@+id/imageView27" />
 
             <TextView
-                android:id="@+id/txt_price_cleanerLap4"
+                android:id="@+id/txt_price_actualizacionHard"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/price"
-                app:layout_constraintEnd_toEndOf="@+id/textView23"
-                app:layout_constraintStart_toStartOf="@+id/textView23"
-                app:layout_constraintTop_toBottomOf="@+id/textView23" />
+                app:layout_constraintEnd_toEndOf="@+id/txt_ActualizaiconHard"
+                app:layout_constraintStart_toStartOf="@+id/txt_ActualizaiconHard"
+                app:layout_constraintTop_toBottomOf="@+id/txt_ActualizaiconHard" />
 
             <ImageView
                 android:id="@+id/imageView2"
@@ -168,10 +172,10 @@
                 android:gravity="center"
                 android:src="@drawable/reparacion"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView22" />
+                app:layout_constraintTop_toBottomOf="@+id/txt_LimpiezaPC" />
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/txt_ActualizacionSOS"
                 android:layout_width="120dp"
                 android:layout_height="45dp"
                 android:layout_marginEnd="60dp"
@@ -179,6 +183,7 @@
                 android:foregroundTint="#020202"
                 android:gravity="center"
                 android:text="@string/Operatingsystem"
+                android:textColor="@color/servicios"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="@+id/imageView2"
                 app:layout_constraintHorizontal_bias="0.016"
@@ -187,13 +192,13 @@
 
 
             <TextView
-                android:id="@+id/txt_price_cleanerLap5"
+                android:id="@+id/txt_price_ActualizacionSOS"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/price"
-                app:layout_constraintEnd_toEndOf="@+id/textView"
-                app:layout_constraintStart_toStartOf="@+id/textView"
-                app:layout_constraintTop_toBottomOf="@+id/textView" />
+                app:layout_constraintEnd_toEndOf="@+id/txt_ActualizacionSOS"
+                app:layout_constraintStart_toStartOf="@+id/txt_ActualizacionSOS"
+                app:layout_constraintTop_toBottomOf="@+id/txt_ActualizacionSOS" />
 
             <ImageView
                 android:id="@+id/imageView6"
@@ -206,16 +211,17 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@+id/imageView2"
-                app:layout_constraintTop_toBottomOf="@+id/textView23" />
+                app:layout_constraintTop_toBottomOf="@+id/txt_ActualizaiconHard" />
 
             <TextView
                 android:id="@+id/textView5"
                 android:layout_width="125dp"
-                android:layout_height="45dp"
+                android:layout_height="42dp"
                 android:foregroundGravity="center"
                 android:foregroundTint="#020202"
                 android:gravity="center"
                 android:text="@string/backup"
+                android:textColor="@color/servicios"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="@+id/imageView6"
                 app:layout_constraintHorizontal_bias="0.448"
@@ -243,7 +249,7 @@
                 android:gravity="center"
                 android:src="@drawable/ram"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView" />
+                app:layout_constraintTop_toBottomOf="@+id/txt_ActualizacionSOS" />
 
             <TextView
                 android:id="@+id/textView6"
@@ -253,6 +259,7 @@
                 android:foregroundTint="#020202"
                 android:gravity="center"
                 android:text="@string/RAMexpansion"
+                android:textColor="@color/servicios"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="@+id/imageView8"
                 app:layout_constraintHorizontal_bias="0.016"
@@ -292,6 +299,7 @@
                 android:foregroundTint="#020202"
                 android:gravity="center"
                 android:text="@string/Recover"
+                android:textColor="@color/servicios"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="@+id/imageView9"
                 app:layout_constraintHorizontal_bias="0.0"

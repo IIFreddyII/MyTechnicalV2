@@ -119,4 +119,6 @@
     <string name="servicename">Service Name</string>
     <string name="spanish">Spanish language</string>
     <string name="english">English language</string>
+    <string name="invalid_mail">Enter valid email</string>
+    <string name="invalid_password">Enter valid password</string>
 </resources>
