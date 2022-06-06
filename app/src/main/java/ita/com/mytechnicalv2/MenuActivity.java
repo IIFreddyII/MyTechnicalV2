@@ -12,6 +12,7 @@ import android.widget.Button;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 
+import androidx.appcompat.app.AppCompatDelegate;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -76,12 +77,38 @@ public class MenuActivity extends AppCompatActivity {
                 change();
                 return true;
 
+            case R.id.action_languajeEsp:
+                spanish();
+                return true;
+            case R.id.tema:
+                dark();
+                return true;
+
+            case R.id.lingt:
+                light();
+                return true;
+
             case R.id.closeSession:
                 closesession();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+
+    private void light() {
+        getDelegate().setLocalNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+    }
+
+    private void spanish() {
+        Locale localizacion = new Locale("es", "ES");
+        Locale.setDefault(localizacion);
+        Configuration config = new Configuration();
+        config.locale = localizacion;
+        getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
+        Intent refrescar = new Intent(this, MenuActivity.class);
+        startActivity(refrescar);
+        finish();
     }
 
     //Metodo para cerrar sesion
@@ -99,5 +126,9 @@ public class MenuActivity extends AppCompatActivity {
         Intent refrescar = new Intent(this, MenuActivity.class);
         startActivity(refrescar);
         finish();
+    }
+
+    private void dark(){
+            getDelegate().setLocalNightMode(AppCompatDelegate.MODE_NIGHT_YES);
     }
 }

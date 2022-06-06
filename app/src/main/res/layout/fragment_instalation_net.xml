@@ -36,7 +36,6 @@
                 android:foregroundTint="#020202"
                 android:gravity="center|top"
                 android:text="@string/instalationnet3"
-                android:textColor="@color/servicios"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView26" />
@@ -69,7 +68,6 @@
                 android:foregroundTint="#020202"
                 android:gravity="center|top"
                 android:text="@string/instalationnet4"
-                android:textColor="@color/servicios"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView27" />
@@ -104,7 +102,6 @@
                 android:foregroundTint="#020202"
                 android:gravity="center|top"
                 android:text="@string/instalationnet2"
-                android:textColor="@color/servicios"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView25" />
@@ -138,7 +135,6 @@
                 android:foregroundTint="#020202"
                 android:gravity="center|top"
                 android:text="@string/instalationnet"
-                android:textColor="@color/servicios"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/img_revisionpc" />

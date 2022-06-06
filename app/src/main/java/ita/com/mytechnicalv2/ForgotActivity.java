@@ -2,11 +2,12 @@ package ita.com.mytechnicalv2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class ForgotActivity extends AppCompatActivity {
+public class ForgotActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

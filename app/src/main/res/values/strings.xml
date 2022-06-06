@@ -117,4 +117,6 @@
     <string name="pc">Information</string>
     <string name="session">Close Session</string>
     <string name="servicename">Service Name</string>
+    <string name="spanish">Spanish language</string>
+    <string name="english">English language</string>
 </resources>
