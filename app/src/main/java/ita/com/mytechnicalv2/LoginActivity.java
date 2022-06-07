@@ -177,10 +177,10 @@ public class LoginActivity extends Activity {
 //        Intent login =  new Intent(this, MenuActivity.class);
 //        startActivity(login);
 //    }
-//    public void Back(View view){
-//        Intent back =  new Intent(this, WelcomeActivity.class);
-//        startActivity(back);
-//    }
+    public void Back(View view){
+        Intent back =  new Intent(this, WelcomeActivity.class);
+        startActivity(back);
+    }
 //
 //    public void Forgot(View view){
 //        Intent forgot =  new Intent(this, ForgotActivity.class);

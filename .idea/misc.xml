@@ -54,10 +54,15 @@
         <entry key="..\:/AndroidStudio/MyTechnicalV2/app/src/main/res/layout/nav_header_menu.xml" value="0.29444444444444445" />
         <entry key="..\:/AndroidStudio/MyTechnicalV2/app/src/main/res/menu/activity_menu_drawer.xml" value="0.33877551020408164" />
         <entry key="..\:/AndroidStudio/MyTechnicalV2/app/src/main/res/menu/menu.xml" value="0.31354166666666666" />
+        <entry key="..\:/Users/Pablo/Documents/GitHub/MyTechnicalV2/app/src/main/res/layout-land/activity_forgot.xml" value="0.4864583333333333" />
+        <entry key="..\:/Users/Pablo/Documents/GitHub/MyTechnicalV2/app/src/main/res/layout-land/activity_login.xml" value="0.5984375" />
+        <entry key="..\:/Users/Pablo/Documents/GitHub/MyTechnicalV2/app/src/main/res/layout-land/activity_register.xml" value="0.5" />
+        <entry key="..\:/Users/Pablo/Documents/GitHub/MyTechnicalV2/app/src/main/res/layout-land/activity_welcome.xml" value="0.5" />
         <entry key="..\:/Users/Pablo/Documents/GitHub/MyTechnicalV2/app/src/main/res/layout/activity_congratulations.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Pablo/Documents/GitHub/MyTechnicalV2/app/src/main/res/layout/activity_forgot.xml" value="0.278125" />
-        <entry key="..\:/Users/Pablo/Documents/GitHub/MyTechnicalV2/app/src/main/res/layout/activity_login.xml" value="0.2109375" />
-        <entry key="..\:/Users/Pablo/Documents/GitHub/MyTechnicalV2/app/src/main/res/layout/activity_register.xml" value="0.278125" />
+        <entry key="..\:/Users/Pablo/Documents/GitHub/MyTechnicalV2/app/src/main/res/layout/activity_forgot.xml" value="0.33" />
+        <entry key="..\:/Users/Pablo/Documents/GitHub/MyTechnicalV2/app/src/main/res/layout/activity_login.xml" value="0.5" />
+        <entry key="..\:/Users/Pablo/Documents/GitHub/MyTechnicalV2/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/Pablo/Documents/GitHub/MyTechnicalV2/app/src/main/res/layout/activity_welcome.xml" value="0.375" />
         <entry key="..\:/Users/Pablo/Documents/GitHub/MyTechnicalV2/app/src/main/res/layout/fragment_supportpc.xml" value="0.278125" />
       </map>
     </option>

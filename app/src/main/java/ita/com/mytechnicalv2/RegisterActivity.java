@@ -184,10 +184,10 @@ public class RegisterActivity extends Activity {
     }
 
 
-//    public void Back(View view){
-//        Intent back =  new Intent(this, WelcomeActivity.class);
-//        startActivity(back);
-//    }
+    public void Back(View view){
+        Intent back =  new Intent(this, WelcomeActivity.class);
+        startActivity(back);
+    }
 //
 //    public void Login(View view){
 //        Intent login =  new Intent(this, LoginActivity.class);
